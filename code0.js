@@ -51,7 +51,7 @@ gdjs.New_32sceneCode.condition1IsTrue_1 = {val:false};
 gdjs.New_32sceneCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.New_32sceneCode.eventsList0x693eb0 = function(runtimeScene) {
+gdjs.New_32sceneCode.eventsList0x744aa0 = function(runtimeScene) {
 
 {
 
@@ -100,7 +100,7 @@ gdjs.New_32sceneCode.GDmijugadorObjects1.length = k;}if (gdjs.New_32sceneCode.co
 }
 
 
-}; //End of gdjs.New_32sceneCode.eventsList0x693eb0
+}; //End of gdjs.New_32sceneCode.eventsList0x744aa0
 gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDLeftButtonObjects1Objects = Hashtable.newFrom({"LeftButton": gdjs.New_32sceneCode.GDLeftButtonObjects1});gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDRightButtonObjects1Objects = Hashtable.newFrom({"RightButton": gdjs.New_32sceneCode.GDRightButtonObjects1});gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDJumpButtonObjects1Objects = Hashtable.newFrom({"JumpButton": gdjs.New_32sceneCode.GDJumpButtonObjects1});gdjs.New_32sceneCode.eventsList0xb0cf8 = function(runtimeScene) {
 
 {
@@ -125,10 +125,10 @@ gdjs.New_32sceneCode.GDTiledGrassPlatformObjects1.createFrom(runtimeScene.getObj
 gdjs.New_32sceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.New_32sceneCode.conditionTrue_1 = gdjs.New_32sceneCode.condition0IsTrue_0;
-gdjs.New_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7633444);
+gdjs.New_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7618716);
 }
 }if (gdjs.New_32sceneCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.playMusic(runtimeScene, "..\\imagenes\\trueno\\r1.mp3", true, 100, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "..\\imagenes\\trueno\\r1.ogg", true, 100, 1);
 }}
 
 }
@@ -262,7 +262,7 @@ for(var i = 0, k = 0, l = gdjs.New_32sceneCode.GDmijugadorObjects1.length;i<l;++
 gdjs.New_32sceneCode.GDmijugadorObjects1.length = k;}if (gdjs.New_32sceneCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.New_32sceneCode.eventsList0x693eb0(runtimeScene);} //End of subevents
+gdjs.New_32sceneCode.eventsList0x744aa0(runtimeScene);} //End of subevents
 }
 
 }
